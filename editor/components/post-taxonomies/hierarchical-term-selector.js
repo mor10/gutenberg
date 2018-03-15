@@ -165,7 +165,8 @@ class HierarchicalTermSelector extends Component {
 
 	componentDidMount() {
 		const basePath = wp.api.getTaxonomyRoute( this.props.slug );
-		this.fetchRequest = wp.apiRequest( { path: `/wp/v2/${ basePath }?${ stringify( DEFAULT_QUERY ) }` } ).then(
+		this.fetchRequest = wp.apiRequest( { path: `/wp/v2/${ basePath }?${ stringify( DEFAULT_QUERY ) }` } );
+		this.fetchRequest.then(
 			( terms ) => { // resolve
 				const availableTermsTree = buildTermsTree( terms );
 
