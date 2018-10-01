@@ -106,3 +106,4 @@ This list is manually curated to include valuable contributions by volunteers th
 | @burhandodhy | @burhandodhy |
 | @ZebulanStanphill | @zebulan |
 | @BenjaminZekavica | @benjamin_zekavica |
+| @mor10 | @mor10 |
